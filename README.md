@@ -3,7 +3,7 @@
   <a href="https://github.com/aporeticaxis/cs2-ascii-chat-art/releases">
     <img alt="Release" src="https://img.shields.io/github/v/release/aporeticaxis/cs2-ascii-chat-art?display_name=tag"">
   </a>
-  <a href="#">
+  <a href="">
     <img alt="OS" src="https://img.shields.io/badge/Windows-10%2B-blue">
   </a>
 </p>
