@@ -1,17 +1,16 @@
 <h1 align="center">CS2 ASCII Chat Art</h1>
-<p align="center">Make MM chat pretty again — generate line-by-line ASCII/Braille Art in Chat.
-  <a href="center">
-    <img src="https://github.com/user-attachments/assets/f6133ff0-113e-401b-81cb-6486d196ca5b" alt="shrek">
-  </a>
-</p>
-
 <p align="center">
-  <a href="https://github.com/yourname/cs2-ascii-chat-art/releases">
-    <img alt="Release" src="https://img.shields.io/github/v/release/yourname/cs2-ascii-chat-art?display_name=tag">
+  <a href="https://github.com/aporeticaxis/cs2-ascii-chat-art/releases">
+    <img alt="Release" src="https://img.shields.io/github/v/release/aporeticaxis/cs2-ascii-chat-art?display_name=tag"">
   </a>
   <a href="#">
     <img alt="OS" src="https://img.shields.io/badge/Windows-10%2B-blue">
   </a>
+</p>
+
+<p align="center">Make MM chat pretty again — generate line-by-line ASCII/Braille Art in Chat.
+  <br>
+  <img src="https://github.com/user-attachments/assets/f6133ff0-113e-401b-81cb-6486d196ca5b" alt="shrek">
 </p>
 
 ## TL;DR
@@ -60,7 +59,7 @@ cfg/
 
 ## What it does (at a glance)
 
-Converts any multi‑line text block (ASCII/Braille art) art file (`<name>.txt`) into an organized subdir within cfg/ with individual **per‑line `say` configs** that you cycle with keybinds. You control the pacing (it's not automatic - the script auto-cycles the bind associated with the default key, so you just need to press 7 (F7 if dead) to iterate through the whole folder/art piece).
+Converts any multi‑line text block (ASCII/Braille) art file (`<name>.txt`) into an organized subdir within cfg/ with individual **per‑line `say` configs** that you cycle with keybinds. You control the pacing (it's not automatic - the script auto-cycles the bind associated with the default key, so you just need to press 7 (F7 if dead) to iterate through the whole folder/art piece).
 
 > **Demo album (replace with your links):**
 >
@@ -108,11 +107,10 @@ art.bat cry cry.txt
 art.bat shrek shrek.txt
 ```
 
-
 <details>
 <summary><strong>PowerShell</strong></summary>
   
-```
+``` powershell
   cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg" .\art.bat cry cry.txt
 ```
 
@@ -120,7 +118,7 @@ art.bat shrek shrek.txt
 
 <details> <summary><strong>CMD</strong></summary>
   
-```
+``` cmd
 cd "C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\game\csgo\cfg" art.bat cry cry.txt
 ```
 
@@ -175,7 +173,7 @@ exec art_select
 
 ## The Menu (sample)
 <p align="center">
-<img src=https://github.com/user-attachments/assets/8d9b83e7-9b10-47a8-a828-d4a1ebd8d507 alt=Menu Screenshot)
+<img src=https://github.com/user-attachments/assets/8d9b83e7-9b10-47a8-a828-d4a1ebd8d507 alt=Menu Screenshot />
 </p>
 
 ---
@@ -217,7 +215,7 @@ exec art_select
 </div>
 
 <p align="center">
-<img src=https://github.com/user-attachments/assets/3351f497-cc2e-4ac8-8b07-9961c3f52e79 alt=Loaded Artwork)
+<img src=https://github.com/user-attachments/assets/3351f497-cc2e-4ac8-8b07-9961c3f52e79 alt=Loaded Artwork />
 </p>
 
 ---
@@ -326,6 +324,6 @@ Generate with `art.bat cry cry.txt` (or whatever you want to save it as)
 * Original: [moio9/cs2-text-art](https://github.com/moio9/cs2-text-art)
 * This release adds: multi-select menu, spectator binds, reset, and folder structure,
 
-**Download:** *[Github](https://github.com/aporeticaxis/cs2-ascii-chat-art/main/)*
+**Download:** [Github](https://github.com/aporeticaxis/cs2-ascii-chat-art/)
 
 **Heads-up:** Use responsibly. Don’t spam during clutches or to harass players. Servers may drop inputs if you mash keys too fast. :) Share your best art in the comments! 
